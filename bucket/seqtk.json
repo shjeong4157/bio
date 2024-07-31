@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/lh3/seqtk/archive/refs/tags/v1.4.tar.gz",
-      "hash": "sha256:<hash_value>"
+      "hash": "sha256:abcdef123456..."
     }
   },
   "bin": "seqtk",
