@@ -1,0 +1,26 @@
+{
+  "version": "1.4",
+  "description": "Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format",
+  "homepage": "https://github.com/lh3/seqtk",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/lh3/seqtk/archive/refs/tags/v1.4.tar.gz",
+      "hash": "sha256:<hash_value>"
+    }
+  },
+  "bin": "seqtk",
+  "checkver": {
+    "github": "https://github.com/lh3/seqtk"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/lh3/seqtk/archive/refs/tags/v$version.tar.gz",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
+}
